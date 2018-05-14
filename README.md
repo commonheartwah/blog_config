@@ -1,1 +1,1 @@
-# blog_config
+# 博客配置
