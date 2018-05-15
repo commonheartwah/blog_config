@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yilia
+theme: yelee
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -100,3 +100,18 @@ jsonContent:
       excerpt: false
       categories: false
       tags: true
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+baidusitemap:
+    path: baidusitemap.xml
+sitemap:
+    path: sitemap.xml
+search:
+  path: search.xml
+  field: post
